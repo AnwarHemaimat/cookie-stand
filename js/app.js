@@ -1,5 +1,5 @@
 'use strict'
-let hoursArray = ["6:00 AM", "7:00 AM", "8:00 AM", "9:00 AM", "10:00 AM", "11:00 AM", "12:00 PM", "1:00 PM", "2:00 PM", "3:00 PM", "4:00 PM", "5:00 PM", "6:00 PM", "7:00 PM", "Daily Total"];
+let hoursArray = ["6:00 AM", "7:00 AM", "8:00 AM", "9:00 AM", "10:00 AM", "11:00 AM", "12:00 PM", "1:00 PM", "2:00 PM", "3:00 PM", "4:00 PM", "5:00 PM", "6:00 PM", "7:00 PM"];
 let seattle = {
   name: 'Seattle',
   min: 23,
@@ -179,6 +179,15 @@ let tokyo = {
 seattle.calcAvgCookies()
 seattle.render()
 console.log(seattle)
+tokyo.calcAvgCookies()
+tokyo.render()
+dubai.calcAvgCookies()
+dubai.render()
+paris.calcAvgCookies()
+paris.render()
+lima.calcAvgCookies()
+lima.render()
+
 
 // const locationSalesByHour = [];
 //  const locationData = [
