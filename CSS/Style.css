@@ -67,17 +67,17 @@ header {
     text-align: center;
 }
 #Seattle>p ,#tokyo>p, #dubai>p, #paris>p, #lima>p {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 35px;
-    font-weight: bolder;
-    padding: 25px;
+    font-family: 'cursive New', cursive, monospace;
+    font-size: 30px;
+    font-weight:bold;
+    padding: 20px;
     
 }
 #Seattle>li ,#tokyo>li, #dubai>li, #paris>li, #lima>li{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
-    font-weight: bolder;
-    padding: 5px;
+    font-family: 'cursive New', cursive, monospace;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 7px;
     list-style: disc;
 }
 
