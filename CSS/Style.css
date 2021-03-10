@@ -1,5 +1,5 @@
 html {
-    background: url(../img/petr-sevcovic-qE1jxYXiwOA-unsplash.jpg) no-repeat center center fixed;
+    background: url(https://images-na.ssl-images-amazon.com/images/S/sgp-catalog-images/region_US/qy6fx-2GJSFEHZ40R-Full-Image_GalleryBackground-en-US-1493074297539._RI_.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -9,7 +9,7 @@ html {
 
 nav {
     color: black;
-    background-color: rgb(234, 200, 193);
+    background-color: rgb(234, 200, 193, 0.692);
     overflow: hidden;
     margin-bottom: 30px;
     position: fixed;
@@ -61,6 +61,7 @@ header {
     color: white;
     font-family: 'Rock Salt', cursive;
     font-size: 55px;
+    padding-left: 40px;
     display: inline-block;
     text-shadow: 2px 2px 5px rgb(20, 20, 20);
     text-align: center;
@@ -96,7 +97,7 @@ header {
 #aboutUs {
     color: black;
     font-size: 25px;
-    width: 600px;
+    width: 800px;
     float: left;
     background-color: rgb(234, 200, 193, .9);
     padding: 15px;
@@ -171,11 +172,13 @@ header {
      margin-left: auto;
     margin-right: auto; 
      margin-bottom: 30px; 
-    background-color: rgb(234, 200, 193);
+    background-color: rgba(234, 200, 193, 0.692);
     padding-right: 100px;
     font-style: oblique;
     font-size: 30px;
     text-align: start;
+    padding-left: 70px;
+    padding-bottom: 20px;
 }
 
 #salesH1 {
@@ -192,8 +195,10 @@ h4{
 #form {
     margin-bottom: 30px;
     margin-left: 15px;
+    margin-bottom: 80px;
     font-family: sans-serif;
     font-size: 22px;
+    
 }
 
 tr {
@@ -217,4 +222,59 @@ tr {
     font-size:large;
     font-family: cursive;
     text-align: center;
+  }
+
+  @keyframes example2 {
+    from {background-color: rgb(248, 23, 23);}
+    to {background-color: rgb(65, 205, 240);}
+  }
+
+  header p {
+    animation-name: example2;
+    animation-duration: 8s;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+  }
+  
+  fieldset{
+      text-align: center;
+      display: inline-block;
+      border: 2px solid rgb(180, 0, 120);
+      border-radius: 8px;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-bottom: 20px;
+  }
+
+  form legend{
+    background-color: #ff00b3;
+    font-family:cursive;
+    margin-bottom: 30px;
+    font-weight: bold;
+  }
+
+  fieldset div label {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+
+  fieldset button{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 23px; 
+    margin: 25px;
+  position: absolute;
+  /* left: 150px;
+  width: 200px;
+  height: 120px; */
+  border: 3px solid rgb(243, 130, 209);
+  font-weight: bold;
+  }
+  div img{
+      padding-left: 100px;
+  }
+
+  div p{
+      font-size: 35px;
   }
