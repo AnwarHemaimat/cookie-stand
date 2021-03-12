@@ -119,8 +119,16 @@ function addNewLocation(event) {
   newLocation.calcAvgCookies();
   table.innerHTML = '';
   tableHeader();
+
   for (let i = 0; i < locatins.length; i++) {
-    locatins[i].render();
+
+    if (locationcity === '' || locationcity === null || minCustomerPerHour === '' || minCustomerPerHour === null || maxCustomerPerHour === '' || maxCustomerPerHour === null || avgCookiesPerCustomer === '' || avgCookiesPerCustomer === null) {
+      alert('Please do not left the form empty');
+      console.log(alert);
+    } else {
+      locatins[i].render();
+    }
+
   }
   tableFooter();
 }
