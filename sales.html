@@ -27,17 +27,17 @@
             <legend>Add New Store Location</legend>
           <div>
             <label><ul><li>Store Location</li></ul></label>
-            <input name="locationcity" type="text"/>
+            <input name="locationcity" type="text"  required />
           </div>
           <div>
             <label><ul><li></li>Daily minimum customer average</li></ul></label>
-            <input name="minCustomerPerHour" type="text"/>
+            <input name="minCustomerPerHour" type='number' required />
           </div>  
             <label style="font-family: 'Times New Roman', Times, serif; font-weight: bold;"><ul><li></li>Daily maximum customer average</li></ul></label>
-            <input name="maxCustomerPerHour" type="text"/>
+            <input name="maxCustomerPerHour" type='number' required />
           <div>
             <label><ul><li></li>Daily average cookie sale per customer</li></ul></label>
-            <input name="avgCookiesPerCustomer" type="text"/>
+            <input name="avgCookiesPerCustomer" type='number' required step="0.1" />
           </div>
             <button type="submit">submit</button>
           </fieldset>
