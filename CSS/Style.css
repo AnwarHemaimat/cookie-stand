@@ -9,7 +9,7 @@ html {
 
 nav {
     color: black;
-    background-color: rgb(234, 200, 193, 0.692);
+    background-color: rgba(125, 207, 255, 0.705);
     overflow: hidden;
     margin-bottom: 30px;
     position: fixed;
@@ -67,20 +67,7 @@ header {
     text-shadow: 2px 2px 5px rgb(20, 20, 20);
     text-align: center;
 }
-/* #Seattle>p ,#tokyo>p, #dubai>p, #paris>p, #lima>p {
-    font-family: 'cursive New', cursive, monospace;
-    font-size: 30px;
-    font-weight:bold;
-    padding: 20px;
-    
-}
-#Seattle>li ,#tokyo>li, #dubai>li, #paris>li, #lima>li{
-    font-family: 'cursive New', cursive, monospace;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 7px;
-    list-style: disc;
-} */
+
 
 #locations {
     color: black;
@@ -96,20 +83,29 @@ header {
 }
 
 #aboutUs {
-    /* color: black; */
-    /* font-size: 25px; */
     width: 800px;
-    height: 1500px;
-    /* float: left; */
-    background-color: rgb(234, 200, 193, 0.692);
+    height: 800px;
+    background-color: rgba(125, 207, 255, 0.705);
     padding: 15px;
     position: relative;
-    /* font-family: 'Darker Grotesque', sans-serif; */
+    padding-left: 50px;
     line-height: 1.3;
-    /* text-indent: 2em; */
     margin-top: 50px;
     margin-bottom: 30px;
 }
+
+#aboutUs2{
+    width: 800px;
+    height: 800px;
+    background-color: rgba(125, 207, 255, 0.705);
+    /* padding: 10px; */
+    position: relative;
+    padding-left: -20px;
+    line-height: 1.3;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
 
 /* Shake the images */
 @keyframes shake {
@@ -125,14 +121,20 @@ header {
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
-
+#family{
+    width: 700px; 
+    padding-left: 50px;
+    position: absolute;
+    top: 170px;
+    left: 235px;
+}
 
 #pic1{
     width: 150px;
     height: 100px;
     position: absolute;
     top: 580px ;
-    left:10px ;
+    left:200px ;
     border-radius: 50%;
   transform: scaleX(-1);
   opacity: 0.6;
@@ -170,11 +172,11 @@ header {
 
 }
 #pic5{
-    width: 300px;
+    width: 250px;
     height: 150px;
     position: absolute;
-    top: 500px ;
-    left:140px ;
+    top: 120px ;
+    left:600px ;
     border-radius: 50%;
     animation: shake 3s;
   animation-iteration-count: infinite;
@@ -186,23 +188,50 @@ header {
     top: 1100px ;
     left:180px ;
     opacity: 0.8;
-    /* border-radius: 50%; */
-    /* animation: shake 3s;
-  animation-iteration-count: infinite; */
 }
 
 #text0{
-    /* width: 300px;
-    height: 150px; */
     position: absolute;
-    top: 780px ;
-    left:1px ;
-    /* border-radius: 50%; */
-    /* animation: shake 3s;
-  animation-iteration-count: infinite; */
-  font-size: 30px;
-  color: #440030;
+    top: 580px ;
+    left:200px ;
+    font-weight: bold;
+  font-size: 50px;
+  color: #750303;
+  text-decoration:overline;
   
+}
+#text7{
+    position: absolute;
+    top: 50px ;
+    left:600px ;
+    background-color: #88026bbb; 
+    padding-right: 15px;
+    padding-left: 15px;
+    text-align: center;
+    animation: shake 3s;
+  animation-iteration-count: infinite;
+  font-size: 25px;
+  color: #fffefefb;
+
+ 
+}
+#salmonText{
+    font-size: 20px; 
+    font-family: cursive; 
+    font-weight: bold; 
+    text-align: left; 
+    height: 200px; 
+    width: 300px; 
+    left: 50px;
+    background-color: rgba(125, 207, 255, 0.24);
+}
+#mySlides{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 840px;
+    left: 300px;
+    
 }
 
 
@@ -234,102 +263,93 @@ header {
     text-align: left;
     padding-left: 50px;
 }
-section div h4{
-    font-size: 30px;
-    /* font-weight: bold; */
-    font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    padding-left: 50px;
-}
+
 section div p{
     font-size: 20px;
-    /* font-weight: bold; */
     font-family: 'Times New Roman', Times, serif;
     text-align: left;
     padding-left: 50px;
 }
-div .location-enter #Seattle{
+ #Seattle{
     position:absolute;
     position: relative;
-    top: 400px;
+    top: -380px;
+    font-size: 40px;
+    left: 70px ;
 }
-div .location-enter #facebook{
+#facebook{
     width: 17px;
     font-size: 10px;
     position:absolute;
-    top: 90px;
-    left: -70px;
+    top: 75px;
+    left: -120px;
 }
-div .location-enter #instagram{
+#instagram{
     width: 17px;
     font-size: 10px;
     position:absolute;
-    top: 110px;
-    left: -70px;
+    top: 95px;
+    left: -120px;
 }
 #instaSeattle{
-    font-size: 12px;
-    position: absolute;
-    /* top: 110px; */
-    left:20px ;
-}
-div .location-enter #Tokyo{
-    /* width: 17px; */
     font-size: 10px;
-    position:absolute;
-    top: 810px;
-    left: 270px;
+    position: absolute;
+    top: 100px;
+    left:3px ;
 }
+
+
 #faceSeattle{
     font-size: 12px;
 }
-#instaSeattle{
-    font-size: 12px;
-    position: absolute;
-    top: 113px ;
-    left:5px ;
+
+
+#Tokyo{
+    font-size: 40px;
+    position:absolute;
+    top: 625px;
+    left: 870px;
 }
-div .location-enter #facebook2{
+#facebook2{
     width: 17px;
     font-size: 10px;
     position:absolute;
-    top: 106px;
-    left: -70px;
+    top: 100px;
+    left: -120px;
 }
-div .location-enter #instagram2{
+#instagram2{
     width: 17px;
     font-size: 10px;
     position:absolute;
-    top: 125px;
-    left: -70px;
+    top: 120px;
+    left: -120px;
 }
 
 #instaTokyo{
     font-size: 12px;
     position: absolute;
-    top: 125px ;
-    left:10px ;
+    top: 120px;
+    left:3px ;
 }
-div .location-enter #Dubai{
-    /* width: 17px; */
-    font-size: 10px;
+#Dubai{
+    font-size: 40px;
     position:absolute;
-    top: 810px;
+    top: 625px;
     left: 540px;
 }
-div .location-enter #facebook3{
+#facebook3{
     width: 17px;
     font-size: 10px;
     position:absolute;
-    top: 106px;
-    left: -70px;
+    top: 97px;
+    left: -120px;
 }
-div .location-enter #instagram3{
+#instagram3{
     width: 17px;
     font-size: 10px;
     position:absolute;
-    top: 125px;
-    left: -70px;
+    top: 117px;
+    left: -120px;
 }
 #faceDubai{
     font-size: 12px;
@@ -337,28 +357,29 @@ div .location-enter #instagram3{
 #instaDubai{
     font-size: 12px;
     position: absolute;
-    top: 127px ;
-    left:8px ;
+    top: 120px ;
+    left:3px ;
 }
-div .location-enter #Paris{
-    position: absolute;
-    top: 950px ;
-    left:20px ;
+#Paris{
+    font-size: 40px;
+    position:absolute;
+    top: 725px;
+    left:300px ;
 }
 
-div .location-enter #facebook4{
+#facebook4{
     width: 17px;
     font-size: 10px;
     position:absolute;
-    top: 128px;
-    left: -70px;
+    top: 118px;
+    left: -120px;
 }
-div .location-enter #instagram4{
+#instagram4{
     width: 17px;
     font-size: 10px;
     position:absolute;
-    top: 150px;
-    left: -70px;
+    top: 140px;
+    left: -120px;
 }
 #faceParis{
     font-size: 12px;
@@ -366,29 +387,31 @@ div .location-enter #instagram4{
 #instaParis{
     font-size: 12px;
     position: absolute;
-    top: 150px;
+    top: 140px;
     left:4px ;
 }
 
 #lima{
-    position: absolute;
-    top: 950px ;
-    left: 540px;
+    font-size: 40px;
+    position:absolute;
+    top: 725px;
+    left: 800px;
+
 }
 
-div .location-enter #facebook5{
+#facebook5{
     width: 17px;
     font-size: 10px;
     position:absolute;
-    top: 130px;
-    left: -74px;
+    top: 117px;
+    left: -120px;
 }
-div .location-enter #instagram5{
+#instagram5{
     width: 17px;
     font-size: 10px;
     position:absolute;
-    top: 150px;
-    left: -74px;
+    top: 140px;
+    left: -120px;
 }
 #faceLima{
     font-size: 12px;
@@ -396,24 +419,17 @@ div .location-enter #instagram5{
 #instaLima{
     font-size: 12px;
     position: absolute;
-    top: 150px;
+    top: 140px;
     left: -2px;
 }
-/* #weirdFamily {
-    float: right;
-    font-family: 'Darker Grotesque', sans-serif;
-    font-size: 22px;
-    margin-right: 10px;
-    width: 200px;
-    margin-top: -270px;
-} */
+
 
 #salesBody {
     width: 1100px;
      margin-left: auto;
     margin-right: auto; 
      margin-bottom: 30px; 
-    background-color: rgba(234, 200, 193, 0.692);
+    background-color: rgba(125, 207, 255, 0.705);
     padding-right: 100px;
     font-style: oblique;
     font-size: 30px;
@@ -466,22 +482,12 @@ tr {
   }
 
   @keyframes example2 {
-    from {background-color: rgb(248, 23, 23);}
-    to {background-color: rgb(65, 205, 240);}
+    from {background-color: rgb(233, 248, 23);}
+    to {background-color: rgba(125, 207, 255, 0.705)}
   }
-  #text7{
-    position: absolute;
-    top: 440px ;
-    left:210px ;
-    background-color: #f087e2; 
-    padding-right: 15px;
-    text-align: center;
-    animation: shake 3s;
-  animation-iteration-count: infinite;
-  font-size: 30px;
-  color: #83085e;
-  
-}
+
+ 
+
   header p {
     animation-name: example2;
     animation-duration: 8s;
